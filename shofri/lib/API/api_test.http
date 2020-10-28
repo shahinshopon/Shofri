@@ -1,0 +1,32 @@
+@url = https://www.shofri.in/appinshofri/
+
+@token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9leGFtcGxlLm9yZyIsImF1ZCI6Imh0dHA6XC9cL2V4YW1wbGUuY29tIiwiZXhwIjoxNTk5Mzc0NjY2LCJkYXRhIjpbXX0.M-UyIzoeGvgnvMHSL56Jse4EPrun_k1dagtiB_9J3ws
+
+
+###
+POST {{url}}/token/generate.php HTTP/1.1
+
+{
+    "username": "admin",
+    "password": "admin123"
+}
+
+###
+GET {{url}}categories/read.php?pageno=1&pagesize=30 HTTP/1.1
+Authorization: Bearer {{token}}
+
+###
+GET {{url}}/categories/read_one.php?id=1 HTTP/1.1
+Authorization: Bearer {{token}}
+
+###
+POST {{url}}/flash_deals/read.php?pageno=1&pagesize=30 HTTP/1.1
+Authorization: Bearer {{token}}
+
+###
+GET {{url}}sliders/read.php HTTP/1.1
+Authorization: Bearer {{token}}
+
+###
+GET {{url}}users/read_one.php?id=1 HTTP/1.1
+Authorization: Bearer {{token}}

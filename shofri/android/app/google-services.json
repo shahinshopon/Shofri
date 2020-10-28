@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160211125696",
+    "firebase_url": "https://shofri-b21f8.firebaseio.com",
+    "project_id": "shofri-b21f8",
+    "storage_bucket": "shofri-b21f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160211125696:android:4339cb6a6e8c14e3797425",
+        "android_client_info": {
+          "package_name": "com.example.shofri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160211125696-e1l2726btdu2qeinnv6b2geu64p90ei2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALHrbxPDXpLHWOvH4cWf8Wh65ioVagLzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160211125696-e1l2726btdu2qeinnv6b2geu64p90ei2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
